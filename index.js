@@ -3,7 +3,7 @@
   const gitHubApi = user => `https://api.github.com/users/${user}/repos`;
   const users = ['rmanguinho', 'otaviolemos', 'mikaws'];
   
-  // ---------//--------- faster cases, useful if next lines don't depend on promise
+  // ---------//--------- faster cases, useful if next code lines don't depend on promise
 
   //example 1
   console.time();
@@ -22,7 +22,7 @@
   });
   console.timeEnd();
 
-  // ---------//--------- slower, useful if next lines depend on promise
+  // ---------//--------- slower, useful if next code lines depend on promise
 
   //example 1
   console.time();
